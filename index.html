@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Tierra Negra | Origen y Sabor Profundo</title>
+    
+    <style>
+        /* --- ESTILOS GLOBALES Y RESET --- */
+        body {
+            font-family: 'Georgia', serif; 
+            margin: 0;
+            padding: 0;
+            color: #2c2c2c; 
+            background-color: #f7f3ed; 
+        }
+        h1, h2, h3, h4 {
+            color: #3b281f; 
+            font-weight: 700;
+        }
+        a {
+            text-decoration: none;
+            color: #6d4c3d; 
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #4b3832; 
+        }
+        .container {
+            width: 90%;
+            max-width: 1100px; 
+            margin: 0 auto;
+            padding: 30px 0;
+        }
+        /* --- ESTILOS DE CABECERA (HERO SECTION) --- */
+        .hero {
+            /* RECUERDA: La imagen de fondo no aparecerá si no tienes "logo.png" en la carpeta */
+            background: url('https://picsum.photos/1400/800?random=2') no-repeat center center/cover;
+            height: 100vh; 
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            color: white;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://picsum.photos/1400/800?random=2');
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+        }
+        .logo-img {
+            height: 60px; 
+            max-width: 180px; 
+            filter: drop-shadow(0 0 2px rgba(0,0,0,0.5)); 
+        }
+        /* ... (el resto de los estilos están acortados, pero se aplicarán los básicos) */
+
+        .hero-content { padding: 100px 20px; margin-bottom: 50px; }
+        .hero-content h2 { font-size: 4em; margin-bottom: 0.3em; color: white; line-height: 1.1; }
+        .hero-content p { font-size: 1.6em; margin-bottom: 2.5em; }
+        .btn { display: inline-block; padding: 18px 35px; background-color: #6d4c3d; color: white; border-radius: 8px; font-weight: bold; text-transform: uppercase; transition: background-color 0.4s, transform 0.2s; letter-spacing: 1px; }
+        .btn:hover { background-color: #4b3832; transform: translateY(-2px); }
+        .section { padding: 80px 0; text-align: center; }
+        .origen-bg { background-color: #e3dcd3; }
+        .productos-grid { display: flex; justify-content: space-around; gap: 30px; margin-top: 30px; }
+        .producto-card { background-color: white; padding: 30px; border-radius: 12px; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08); flex: 1; max-width: 300px; }
+        footer { background-color: #3b281f; color: white; padding: 40px 0; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <nav class="navbar">
+            <a href="#" class="logo-img-link">
+                <img src="logo.png" alt="Logo de Café Tierra Negra" class="logo-img">
+            </a>
+            <ul>
+                <li><a href="#origen">Nuestro Origen</a></li>
+                <li><a href="#perfiles">Perfiles de Tueste</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <div class="hero-content">
+            <h2>Cultivado en la riqueza de la Tierra Negra</h2>
+            <p>Sabor profundo, aroma inigualable. La esencia de la tierra en cada taza.</p>
+            <a href="#perfiles" class="btn">Descubre el Origen</a>
+        </div>
+    </header>
+
+    <section id="origen" class="section origen-bg">
+        <div class="container">
+            <h3>🌱 El Secreto está en la Tierra</h3>
+            <p>**Café Tierra Negra** nace de la convicción de que el mejor café proviene de los suelos más fértiles y oscuros. Cosechado en **regiones de altura**, nuestro café absorbe la riqueza mineral que le otorga su carácter distintivo: **un cuerpo robusto y un acabado limpio y memorable**.</p>
+        </div>
+    </section>
+    
+    </body>
+</html>
