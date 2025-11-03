@@ -1,0 +1,26 @@
+/* Estilos para el Logo de Imagen */
+.logo-img-link {
+    display: flex; /* Para centrar la imagen si es necesario */
+    align-items: center;
+    height: 100%; /* Asegura que el contenedor del logo ocupe la altura de la nav */
+}
+
+.logo-img {
+    height: 60px; /* Ajusta este valor según el tamaño deseado de tu logo */
+    max-width: 180px; /* Evita que el logo sea demasiado ancho */
+    filter: drop-shadow(0 0 2px rgba(0,0,0,0.5)); /* Pequeña sombra para que resalte */
+}
+
+/* Ajustar el padding de la navbar si el logo es más grande */
+.navbar {
+    padding: 15px 50px; /* Podrías necesitar ajustar esto */
+}
+
+/* Si tenías un estilo para .navbar .logo, asegúrate de que no interfiera */
+/* Puedes eliminar o comentar el estilo anterior para h1.logo si no lo necesitas */
+.navbar .logo { /* ESTE ESTILO ES DEL TEXTO, AHORA YA NO ES NECESARIO SI USAS IMAGEN */
+    /* margin: 0; */
+    /* font-size: 2em; */
+    /* font-family: sans-serif; */
+    /* letter-spacing: 2px; */
+}
